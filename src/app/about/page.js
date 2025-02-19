@@ -29,7 +29,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="flex lg:flex-row items-center my-[50px] justify-between">
+        <div className="flex items-center my-[50px] justify-between">
           <div className="w-[45%] fade-in-delay">
             <h2 className="font-bold mb-[30px] text-[lightgreen]">How Does It Work?</h2>
             <p className="text-[15px]">
@@ -46,6 +46,27 @@ const About = () => {
               height={300}
               alt="How It Works"
             />
+          </div>
+        </div>
+
+        <div className="flex items-center my-[50px] justify-between">
+          <div className="w-[40%] fade-in-delay">
+            <Image
+              src="https://www.shutterstock.com/image-photo/charity-savings-fundraising-concept-close-260nw-2302991839.jpg"
+              width={500}
+              height={300}
+              alt="How It Works"
+            />
+          </div>
+          
+          <div className="w-[45%] fade-in-delay">
+            <h2 className="font-bold mb-[30px] text-[lightgreen]">Why Is This Important?</h2>
+            <p className="text-[15px]">
+                We want to make fundraising transparent, simple, and accessible. Unlike large crowdfunding platforms, our service is designed to be user-friendly and intuitive – making it easy for anyone to give or receive support.
+                This project is our way of using technology to encourage kindness. We believe that even small donations can change lives.
+
+                Join us! Together, we can make the world a better place. 🌍💚
+            </p>
           </div>
         </div>
       </div>
